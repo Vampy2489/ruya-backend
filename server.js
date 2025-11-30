@@ -6,7 +6,7 @@ require('dotenv').config();
 const app = express();
 
 app.use(cors({
-  origin: ['https://ruya.vklabs.site', 'http://localhost:3000'],
+  origin: ['https://ruya.vklabs.site', 'http://localhost:3002'],
   methods: ['GET', 'POST'],
   credentials: true
 }));
